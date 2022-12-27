@@ -1,0 +1,4 @@
+name: DeathTime20_kill
+version: '${version}'
+main: marumasa.death_time_kill.minecraft
+api-version: 1.19
