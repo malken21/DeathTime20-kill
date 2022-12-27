@@ -1,0 +1,2 @@
+# Minecraft_DeathTime20_kill_Spigot
+DeathTimeが20以上のmob対策プラグイン( killとか 奈落に落としても消すことができないmobの対策)
