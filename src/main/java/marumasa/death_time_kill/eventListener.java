@@ -18,7 +18,8 @@ public class eventListener implements Listener {
     @EventHandler
     public void onSpawn(EntitySpawnEvent event) {
         final Entity Entity = event.getEntity();
-        new check((LivingEntity) Entity).runTaskLater(mc, 60L);
+        if (Entity instanceof LivingEntity LivingEntity)
+            new check(LivingEntity).runTaskLater(mc, 60L);
     }
 
     @EventHandler
